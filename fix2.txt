@@ -1,0 +1,27 @@
+git init
+git branch -m master main
+git add .
+git commit -m "Initial Commit"
+git branch feature1
+git checkout feature1
+git add .
+git commit -m "Created branch feature1"
+git checkout main
+git add .
+git commit -m "changed moose to mahmut"
+git merge feature1
+cat readme.md
+git add readme.md
+git commit -m "merged and resolved conflicts"
+git tag extinct
+git revert -m 1 eeaa
+git branch feature2
+git add readme.md
+git commit -m "capitalized animals"
+git checkout feature2
+git add fix1.txt
+git commit -m "added fix1"
+git add fix2.txt
+git commit -m "added fix2"
+git checkout main
+git cherry-pick 51d27
