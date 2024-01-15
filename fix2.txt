@@ -25,3 +25,5 @@ git add fix2.txt
 git commit -m "added fix2"
 git checkout main
 git cherry-pick 51d27
+git remote add origin https://github.com/LMMAndreasson/gitLabb1
+git push origin main
