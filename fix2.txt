@@ -27,3 +27,7 @@ git checkout main
 git cherry-pick 51d27
 git remote add origin https://github.com/LMMAndreasson/gitLabb1
 git push origin main
+git checkout feature1
+git push origin feature1
+git checkout feature2
+git push origin feature2
